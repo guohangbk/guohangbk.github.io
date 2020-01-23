@@ -39,8 +39,7 @@ VRRP（Virtual Router Redundancy Protocol，虚拟路由器冗余协议），VRR
 
 Keepalived的作用是检测服务器的状态，如果有一台服务器宕机，或工作出现故障，Keepalived将检测到，并将有故障的服务器从系统中剔除，同时使用其他服务器代替该服务器的工作，当服务器工作正常后Keepalived自动将服务器加入到服务器群中，**这些工作全部自动完成，不需要人工干涉**，需要人工做的只是修复故障的服务器。类似软件还有（heartbeat，vcs）
 
-![img](file:///e:\电脑软件\有道云笔记\数据\guohangbk@163.com\01dfea27ab2145ffa81e4d6811301ab4\clipboard.png)
-
+![](https://raw.githubusercontent.com/guohangbk/picBed/master/img/20200123111503.png)
 
 
 ##	2.2 Keepalived安装步骤
