@@ -4,7 +4,7 @@ title:      Keepalived实现高可用
 subtitle:   Keepalived是一款优秀的实现高可用的软件，搭配Nginx更优秀！
 date:       2019-12-26
 author:     guohang
-header-img: img/post-bg-keepalived.png
+header-img: img/post-bg-keepalived.jpg
 catalog: true
 tags:
     - 分布式开发
