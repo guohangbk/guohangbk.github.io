@@ -1,10 +1,10 @@
 # Site settings
-title: 郭航的博客
-SEOTitle: 郭航的博客 | GH Blog
+title: 郭航的Blog
+SEOTitle: 郭航的博客_记录走过的Java之路
 header-img: img/post-bg-desk.jpg
 email: guohangbk@163.com
-description: "Every failure is leading towards success."
-keyword: "GH Blog, 小马儿, 郭航的博客, 科技, 美食, 米粉"
+description: "Java是一种很优秀的语言，在这里分享一下我学习Java的笔记。"
+keyword: "Java, 科技, 美食, 米粉"
 url: "https://guohangbk.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/guohangbk/guohangbk.github.io.git" # you code repository
