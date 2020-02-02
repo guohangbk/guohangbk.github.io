@@ -86,7 +86,7 @@ service依赖Dao层
 
 Dao层依赖DBA
 
-```
+```java
 //DAO
 public class EmpMapper Impl implements EmpMapper {
     @override
@@ -124,7 +124,7 @@ public class EmpController {
 
 1. 改造new对象的位置----⽣成成员变量，为其添加set⽅法；get⽅法可有可⽆ 
 
-   ```
+   ```java
    public class StudentServiceImpl implements StudentService {
        private StudentDao StudentDao;
    
@@ -146,7 +146,7 @@ public class EmpController {
 
 2. 书写Spring配置⽂件:applicationContext.xml
 
-   ```
+   ```xml
    <?xml version="1.0" encoding="UTF-8"?>
    <beans
            xmlns="http://www.springframework.org/schema/beans"
@@ -165,7 +165,7 @@ public class EmpController {
 
 3. bean的获取：
 
-   ```
+   ```java
    public class StudentController {
        @Test
        public void selectStudent(){
@@ -252,7 +252,7 @@ Spring IoC 容器完全由实际编写的配置元数据的格式解耦。有下
 - 基于注解的配置
 - 基于 Java 的配置
 
-```
+```xml
 //配置文件头
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -291,7 +291,7 @@ Spring IoC 容器完全由实际编写的配置元数据的格式解耦。有下
 
 - 1. **基于set方法配置**
 
-     ```
+     ```java
      public class StudentServiceImpl implements StudentService {
          private StudentDao StudentDao;
      
@@ -316,7 +316,7 @@ Spring IoC 容器完全由实际编写的配置元数据的格式解耦。有下
 
      基于构造⽅法注⼊，如果index有0那么new的时候调⽤的时候有⼀个参数的有参构造，如果有01调⽤的是两个参数的有参构造，如果没有任何的constructor-arg,那么调⽤的⽆参构 造。并且顺序必须⼀致。
 
-     ```
+     ```xml
      <bean id="studentService" class="com.service.StudentServiceImpl" scope="singleton">
          <constructor-arg index="0" ref="studentDAO"/>
          <constructor-arg index="1" value="dddded"/> 
@@ -325,7 +325,7 @@ Spring IoC 容器完全由实际编写的配置元数据的格式解耦。有下
 
      改造类：必须有构造⽅法，set⽅法可以不要
 
-     ```
+     ```java
      //set⽅法进⾏注⼊:必须有set⽅法:需要依赖⽆参构造;⾃动注⼊都需要依赖⽆参构造 
      private StudentDAO studentDAO; 
      private String propetyName; 
@@ -359,7 +359,7 @@ Spring IoC 容器完全由实际编写的配置元数据的格式解耦。有下
 
 ***代码示例***
 
-```
+```xml
 //ApplicationContext.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans
@@ -439,7 +439,7 @@ public class StudentController {
 
 @Bean 注解告诉 Spring，一个带有 @Bean 的注解方法将返回一个对象，该对象应该被注册为在 Spring 应用程序上下文中的 bean。最简单可行的 @Configuration 类如下所示：
 
-```
+```java
 package com.tutorialspoint;
 import org.springframework.context.annotation.*;
 @Configuration
@@ -460,7 +460,7 @@ public class HelloWorldConfig {
 
 ***案例演示***
 
-```
+```java
 //ApplicationConfig.java
 @Configuration
 public class ApplicationConfig {
