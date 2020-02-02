@@ -426,7 +426,7 @@ lombok介绍 Lombok是⼀个Java库，能⾃动插⼊编辑器并构建⼯具，
 
 5. 常用注解
 
-   ```java
+   ```
    @Data 注解在类上；提供类所有属性的 getting 和 setting 方法，此外还提供了equals、canEqual、hashCode、toString 方法
    @Setter ：注解在属性上；为属性提供 setting 方法
    @Setter ：注解在属性上；为属性提供 getting 方法
