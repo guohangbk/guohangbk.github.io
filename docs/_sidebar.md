@@ -9,6 +9,7 @@
   
   * Java基础
     * [基础概念](zh-cn/面试题/Java基础/Java面试题.md)
+    * [集合框架](zh-cn/面试题/Java基础/集合类面试题.md)
     * [枚举](zh-cn/面试题/Java基础/枚举面试题.md)
     
   * Java进阶
