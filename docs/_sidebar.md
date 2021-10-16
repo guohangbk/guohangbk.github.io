@@ -2,8 +2,7 @@
 
 * 个人
 
-  * [个人介绍](user/)
-  * [test2](user/getuserinfo)
+  * [个人介绍](zh-cn/个人/个人介绍.md)
 
 
 * 面试题
