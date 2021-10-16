@@ -31,6 +31,7 @@
     * [PostgreSql](zh-cn/面试题/数据库/PostgreSql面试题.md)
 
   * 中间件
+    * [Redis](zh-cn/面试题/中间件/Redis面试题.md)
     * [ElasticSearch](zh-cn/面试题/中间件/ElasticSearch面试题.md)
     * [Zookeeper](zh-cn/面试题/中间件/Zookeeper面试题.md)
     * [MyCat](zh-cn/面试题/中间件/MyCat面试题.md)

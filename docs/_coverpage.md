@@ -1,12 +1,12 @@
-![logo](https://gitee.com/guohangbk/resources/raw/master/images/blog/202110142244645.png)
+![logo](https://gitee.com/guohangbk/resources/raw/master/images/blog/202110161510764.png)
 
-# docsify <small>3.5</small>
+# 小码哥 <small>笔记</small>
 
-> 一个神奇的文档网站生成器。
+> 一个神奇的Java技术博客。
 
-- 简单、轻便 (压缩后 ~21kB)
-- 无需生成 html 文件
-- 众多主题
+- 技术文档分享
+- 常见面试题合集
+- Java工程师不能只会开发，更要做一个DevOps
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+[Gitee](https://gitee.com/guohangbk/guohangbk)
+[Get Started](README.md '#started')
