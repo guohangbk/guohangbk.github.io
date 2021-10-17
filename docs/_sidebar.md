@@ -14,7 +14,7 @@
     
   * Java进阶
     * [多线程](zh-cn/面试题/Java进阶/多线程面试题.md)
-    * [JVM](zh-cn/面试题/Java进阶/JVM面试题.md)
+    * [JVM和JMM](zh-cn/面试题/Java进阶/JVM和JMM面试题.md)
     * [设计模式](zh-cn/面试题/Java进阶/设计模式面试题.md)
     
   * Spring全家桶
