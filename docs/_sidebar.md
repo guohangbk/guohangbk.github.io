@@ -1,42 +1,70 @@
 <!-- docs/_sidebar.md --> 
 
 * 个人
-
   * [个人介绍](zh-cn/个人/个人介绍.md)
 
+* 学习
+  * 框架
+    * MyBatis
+      * [MyBatis基础](zh-cn/学习/框架/mybatis/Mybatis01-基础.md)
+      * [MyBatis配置](zh-cn/学习/框架/mybatis/MyBatis配置和映射.md)
+      * [MyBatis使用](zh-cn/学习/框架/mybatis/动态SQL和关系映射.md)
+      * [MyBatis插件](zh-cn/学习/框架/mybatis/Mybatis缓存、逆向工程和插件.md)
+      * [TkMybatis使用](zh-cn/学习/框架/mybatis/TkMybatis使用.md)
+    * Spring全家桶
+      * spring
+        * [SpringMVC](zh-cn/学习/框架/spring全家桶/spring/SpringMVC.md)
+        * [SpringIOC](zh-cn/学习/框架/spring全家桶/spring/SpringIOC.md)
+        * [SpringAOP](zh-cn/学习/框架/spring全家桶/spring/SpringAOP.md)
+        * [SSM框架整合](zh-cn/学习/框架/spring全家桶/spring/SSM框架整合.md)
+        * [Spring拦截器、异常处理和定时任务](zh-cn/学习/框架/spring全家桶/spring/Spring拦截器、异常处理和定时任务.md)
+      * springboot
+        * [SpringBoot入门](zh-cn/学习/框架/spring全家桶/springboot/SpringBoot入门.md)
+        * [SpringBoot自动配置原理.md](zh-cn/学习/框架/spring全家桶/springboot/SpringBoot自动配置原理.md)
+        * [SpringBoot进阶之整合多种技术](zh-cn/学习/框架/spring全家桶/springboot/SpringBoot进阶之整合多种技术.md)
+  * 中间件
+    * 分布式事务
+      * [分布式事务](zh-cn/学习/中间件/分布式事务.md)
+  * 运维
+    * Linux
+      * [Linux操作系统入门](zh-cn/学习/运维/linux/Linux操作系统入门.md)
+    * Nginx
+      * [Nginx入门](zh-cn/学习/运维/nginx/Nginx入门.md)
+      * [Keepalived实现高可用](zh-cn/学习/运维/nginx/Keepalived实现高可用.md)
+  * 其他
+    * 开发技巧
+      * [文件上传下载和日期格式化](zh-cn/学习/工具与其他/小技巧/文件上传下载和日期格式化.md)
+    * 工具
+      * [Debug断点调试](zh-cn/学习/工具与其他/工具/Debug断点调试.md)
+      * [Maven基础使用教程](zh-cn/学习/工具与其他/工具/Maven基础使用教程.md)
+    * 开发规范
+      * [事务管理和RESTful风格.md](zh-cn/学习/工具与其他/开发规范/事务管理和RESTful风格.md)
 
 * 面试题
-  
   * Java基础
     * [基础概念](zh-cn/面试题/Java基础/Java面试题.md)
     * [集合框架](zh-cn/面试题/Java基础/集合类面试题.md)
     * [枚举](zh-cn/面试题/Java基础/枚举面试题.md)
-    
   * Java进阶
     * [多线程](zh-cn/面试题/Java进阶/多线程面试题.md)
     * [JVM和JMM](zh-cn/面试题/Java进阶/JVM和JMM面试题.md)
     * [设计模式](zh-cn/面试题/Java进阶/设计模式面试题.md)
-    
   * Spring全家桶
     * [Spring](zh-cn/面试题/Java进阶/spring面试题.md)
     * [Spring Boot](zh-cn/面试题/Java进阶/SpringBoot面试题.md)
     * [Spring Cloud](zh-cn/面试题/Java进阶/SpringCloud面试题.md)
-
   * 框架
     * [MyBatis](zh-cn/面试题/开发框架/MyBatis面试题.md)
     * [Zookeeper](zh-cn/面试题/中间件/Zookeeper面试题.md)
-
   * 数据库
     * [MySQL](zh-cn/面试题/数据库/MySQL面试题.md)
     * [PostgreSql](zh-cn/面试题/数据库/PostgreSql面试题.md)
-
   * 中间件
     * [Redis](zh-cn/面试题/中间件/Redis面试题.md)
     * [ElasticSearch](zh-cn/面试题/中间件/ElasticSearch面试题.md)
     * [Zookeeper](zh-cn/面试题/中间件/Zookeeper面试题.md)
     * [MyCat](zh-cn/面试题/中间件/MyCat面试题.md)
     * [Kafka](zh-cn/面试题/中间件/Kafka面试题.md)
-
   * 运维
     * [Linux](zh-cn/面试题/运维/Linux面试题.md)
     * [docker](zh-cn/面试题/运维/docker面试题.md)
